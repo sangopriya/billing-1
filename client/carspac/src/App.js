@@ -6,7 +6,7 @@ function App() {
   return (
     <div >
      {/* <Cartype /> */}
-     <EditCarType/>
+     <ContentLayout/>
      
     </div>
   );
