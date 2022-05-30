@@ -17,14 +17,18 @@ const justSchema = new mongoose.Schema({
         type:'String',
         required: true
     },
-    car_modal:{
-        type:'String',
-        required: true
-    },
     car_specification:{
         type:'String',
         required: true
     },
+    car_type:{
+        type:'String',
+        required:true
+    },
+    car_category:{
+        type:'String',
+        required:true
+    }
 })
 
 module.exports = mongoose.model('BillingData',justSchema)

@@ -5,8 +5,7 @@ import EditCarType from './components/EditCarType';
 function App() {
   return (
     <div >
-     {/* <Cartype /> */}
-     <ContentLayout/>
+     <Homepage/>
      
     </div>
   );
